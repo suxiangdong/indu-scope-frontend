@@ -1,0 +1,57 @@
+.profile-page {
+  min-height: 100vh;
+  padding: 32px 28px 120px;
+  box-sizing: border-box;
+  background: #f7f9fc;
+}
+
+.profile-header { display: flex; flex-direction: column; }
+.profile-eyebrow { color: #0d8f86; font-size: 18px; font-weight: 600; letter-spacing: 3px; }
+.profile-title { margin-top: 14px; color: #152033; font-size: 46px; font-weight: 700; line-height: 1.15; }
+.profile-subtitle { margin-top: 10px; color: #8b97a7; font-size: 22px; }
+
+.profile-user-card {
+  display: flex;
+  align-items: center;
+  min-height: 160px;
+  margin-top: 30px;
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 28px;
+  background: linear-gradient(135deg, #14283c 0%, #0e5e68 100%);
+  box-shadow: 0 18px 34px rgba(15, 48, 65, .16);
+}
+
+.profile-status { width: 100%; color: rgba(255,255,255,.78); font-size: 22px; text-align: center; }
+.profile-avatar { display: flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 76px; height: 76px; border-radius: 24px; background: #e3a45e; color: #172638; font-size: 36px; font-weight: 700; }
+.profile-avatar-guest { background: rgba(255,255,255,.16); color: #9de5d8; font-size: 32px; }
+.profile-user-copy { flex: 1; min-width: 0; margin-left: 16px; }
+.profile-user-name, .profile-user-phone { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.profile-user-name { color: #fff; font-size: 28px; font-weight: 700; }
+.profile-user-phone { margin-top: 10px; color: rgba(255,255,255,.7); font-size: 19px; }
+.profile-user-badge { flex-shrink: 0; padding: 7px 12px; border: 1px solid rgba(157,229,216,.42); border-radius: 12px; color: #9de5d8; font-size: 17px; }
+.profile-verify-button { flex-shrink: 0; min-width: 112px; height: 56px; margin: 0; padding: 0 16px; border: 0; border-radius: 14px; background: #e3a45e; color: #172638; font-size: 20px; line-height: 56px; }
+.profile-login-button { flex-shrink: 0; min-width: 132px; height: 58px; margin: 0; padding: 0 18px; border: 0; border-radius: 14px; background: #e3a45e; color: #172638; font-size: 20px; line-height: 58px; }
+
+.profile-section { margin-top: 42px; }
+.profile-section-title { display: block; color: #152033; font-size: 30px; font-weight: 700; }
+.profile-menu-list { overflow: hidden; margin-top: 20px; border-radius: 24px; background: #fff; box-shadow: 0 8px 24px rgba(37,55,80,.05); }
+.profile-menu-item { display: flex; align-items: center; min-height: 104px; padding: 0 22px; border-bottom: 1px solid #eef1f5; }
+.profile-menu-item:last-child { border-bottom: 0; }
+.profile-menu-icon { display: flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 52px; height: 52px; border-radius: 16px; font-size: 27px; }
+.profile-menu-icon-orange { background: #fff0e5; color: #ed8b4d; }
+.profile-menu-icon-teal { background: #e3f7f3; color: #0d9c8f; }
+.profile-menu-icon-blue { background: #e8f0ff; color: #4777d9; }
+.profile-menu-copy { flex: 1; min-width: 0; margin-left: 16px; }
+.profile-menu-title, .profile-menu-subtitle { display: block; }
+.profile-menu-title { color: #253249; font-size: 23px; font-weight: 600; }
+.profile-menu-subtitle { margin-top: 7px; overflow: hidden; color: #9aa4b2; font-size: 18px; text-overflow: ellipsis; white-space: nowrap; }
+.profile-menu-arrow { margin-left: 12px; color: #b2bbc5; font-size: 34px; }
+
+.profile-logout-button { width: 100%; height: 76px; margin: 28px 0 0; border: 1px solid #f0c7c7; border-radius: 20px; background: #fff; color: #c45f62; font-size: 24px; line-height: 74px; }
+.profile-logout-button[disabled] { opacity: .65; }
+
+.profile-bottom-nav { position: fixed; right: 0; bottom: 0; left: 0; z-index: 10; display: flex; align-items: stretch; width: 100%; box-sizing: border-box; padding: 12px 8px calc(12px + env(safe-area-inset-bottom)); border-top: 1px solid rgba(225,231,239,.92); background: rgba(255,255,255,.97); box-shadow: 0 -8px 24px rgba(31,49,74,.08); }
+.profile-nav-item { flex: 1 1 0; min-width: 0; color: #9aa5b4; font-size: 18px; text-align: center; }
+.profile-nav-item-active { color: #0d8f86; }
+.profile-nav-icon { display: block; margin-bottom: 5px; font-size: 30px; line-height: 1; }

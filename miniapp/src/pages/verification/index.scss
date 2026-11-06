@@ -1,0 +1,61 @@
+.verification-page { min-height: 100vh; padding: 32px 28px 48px; box-sizing: border-box; background: #f7f9fc; }
+.verification-header { display: flex; flex-direction: column; }
+.verification-eyebrow { color: #0d8f86; font-size: 18px; font-weight: 600; letter-spacing: 3px; }
+.verification-title { margin-top: 14px; color: #152033; font-size: 46px; font-weight: 700; line-height: 1.15; }
+.verification-subtitle { margin-top: 10px; color: #8b97a7; font-size: 22px; }
+.verification-status { display: flex; align-items: center; margin-top: 30px; padding: 22px 24px; border-radius: 24px; background: #fff; box-shadow: 0 10px 26px rgba(37,55,80,.06); }
+.verification-status-dot { width: 16px; height: 16px; border-radius: 50%; background: #e3a45e; }
+.verification-status-pending .verification-status-dot { background: #4777d9; }
+.verification-status-rejected .verification-status-dot { background: #d9822b; }
+.verification-status-verified .verification-status-dot { background: #0d9c8f; }
+.verification-status-copy { margin-left: 16px; }
+.verification-status-title { display: block; color: #253249; font-size: 26px; font-weight: 700; }
+.verification-status-subtitle { display: block; margin-top: 6px; color: #929eae; font-size: 19px; }
+.verification-role-card { margin-top: 28px; padding: 22px; border-radius: 24px; background: #fff; box-shadow: 0 8px 24px rgba(37,55,80,.05); }
+.verification-role-title { display: block; color: #253249; font-size: 25px; font-weight: 700; }
+.verification-role-note { display: block; margin-top: 8px; color: #9aa4b2; font-size: 18px; line-height: 1.5; }
+.verification-role-tabs { display: flex; gap: 14px; margin-top: 18px; }
+.verification-role-tab { flex: 1; padding: 18px 16px; border: 1px solid #e5ebf1; border-radius: 18px; background: #fbfcfd; }
+.verification-role-tab-active { border-color: #0d8f86; background: #e3f7f3; box-shadow: inset 0 0 0 1px #0d8f86; }
+.verification-role-name, .verification-role-description { display: block; }
+.verification-role-name { color: #253249; font-size: 23px; font-weight: 700; }
+.verification-role-tab-active .verification-role-name { color: #0d8f86; }
+.verification-role-description { margin-top: 7px; color: #9aa4b2; font-size: 17px; line-height: 1.45; }
+.verification-role-fixed { display: block; margin-top: 13px; color: #0d8f86; font-size: 22px; font-weight: 600; }
+.verification-tabs { display: flex; margin-top: 28px; padding: 5px; border-radius: 18px; background: #eaf0f5; }
+.verification-tab { flex: 1; padding: 15px 0; border-radius: 14px; color: #8b97a7; font-size: 22px; text-align: center; }
+.verification-tab-active { background: #fff; color: #0d8f86; font-weight: 700; box-shadow: 0 5px 14px rgba(37,55,80,.08); }
+.verification-tab-locked { color: #bdc5cf; }
+.verification-lock-hint { display: block; margin-top: 12px; color: #9aa4b2; font-size: 18px; text-align: center; }
+.verification-form { margin-top: 20px; padding: 10px 22px 4px; border-radius: 24px; background: #fff; box-shadow: 0 8px 24px rgba(37,55,80,.05); }
+.verification-field { padding: 20px 0; border-bottom: 1px solid #eef1f5; }
+.verification-field:last-child { border-bottom: 0; }
+.verification-label { display: block; margin-bottom: 12px; color: #253249; font-size: 21px; font-weight: 600; }
+.verification-input { width: 100%; height: 52px; padding: 0; color: #152033; font-size: 22px; line-height: 52px; }
+.verification-input[disabled] { color: #8b97a7; }
+.verification-select { display: flex; align-items: center; justify-content: space-between; width: 100%; min-height: 52px; color: #152033; font-size: 22px; }
+.verification-select-placeholder { color: #b6bec9; }
+.verification-select-value { color: #152033; }
+.verification-select-arrow { color: #9aa4b2; font-size: 26px; }
+.verification-textarea { width: 100%; min-height: 120px; padding: 0; color: #152033; font-size: 22px; line-height: 1.6; }
+.verification-textarea[disabled] { color: #8b97a7; }
+.verification-contact-section { padding: 20px 0 6px; }
+.verification-file-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.verification-file-name { flex: 1; color: #8b97a7; font-size: 20px; line-height: 1.5; word-break: break-all; }
+.verification-upload-button { flex: none; height: 58px; margin: 0; padding: 0 20px; border: 1px solid #0d8f86; border-radius: 14px; background: #fff; color: #0d8f86; font-size: 19px; line-height: 56px; }
+.verification-upload-button[disabled] { opacity: .65; }
+.verification-file-locked { flex: none; color: #4777d9; font-size: 19px; }
+.verification-image-preview-wrap { display: flex; align-items: center; justify-content: center; width: 100%; height: 280px; margin-top: 16px; overflow: hidden; border: 1px solid #edf1f5; border-radius: 16px; box-sizing: border-box; background: #f7f9fc; }
+.verification-image-preview { display: block; width: 100%; height: 100%; }
+.verification-id-card-grid { display: flex; flex-direction: column; gap: 4px; }
+.verification-id-card-item { padding: 18px 0 20px; border-bottom: 1px solid #eef1f5; }
+.verification-id-card-item:last-child { border-bottom: 0; }
+.verification-contact-card { margin-top: 12px; padding: 8px 14px; border-radius: 16px; background: #f7f9fc; }
+.verification-contact-card .verification-input { border-bottom: 1px solid #e8edf2; }
+.verification-contact-card .verification-input:last-child { border-bottom: 0; }
+.verification-add-contact { display: block; margin-top: 14px; color: #0d8f86; font-size: 20px; text-align: center; }
+.verification-hint, .verification-footnote { display: block; margin-top: 16px; color: #9aa4b2; font-size: 18px; line-height: 1.6; }
+.verification-readonly-hint { display: block; margin-top: 24px; padding: 16px 20px; border-radius: 16px; background: #eef4fb; color: #4777d9; font-size: 19px; line-height: 1.6; text-align: center; }
+.verification-submit { width: 100%; height: 76px; margin: 28px 0 0; border: 0; border-radius: 20px; background: #0d8f86; color: #fff; font-size: 24px; line-height: 76px; }
+.verification-submit[disabled] { opacity: .65; }
+.verification-loading { margin-top: 48px; color: #8b97a7; font-size: 22px; text-align: center; }

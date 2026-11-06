@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+# 运行 commitlint 检查 commit message。依赖安装在 miniapp 子项目中。
+cd miniapp && npx --no -- commitlint --edit "${1}"

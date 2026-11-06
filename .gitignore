@@ -1,0 +1,11 @@
+# Shared ignore rules for the frontend subprojects.
+**/dist/
+**/node_modules/
+**/.pnpm-store/
+**/.temp/
+**/deploy_versions/
+**/.rn_temp/
+**/.swc/
+**/.turbopack/
+**/.DS_Store
+**/*.local

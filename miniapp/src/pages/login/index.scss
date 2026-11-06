@@ -1,0 +1,19 @@
+.login-page {
+  min-height: 100vh;
+  padding: 44px 32px 80px;
+  background: radial-gradient(circle at 82% 7%, rgba(24,174,161,.1), transparent 260px), #f7f9fc;
+}
+
+.login-brand { display: flex; align-items: center; flex-direction: column; margin-top: 26px; }
+.login-brand-mark { display: flex; align-items: center; justify-content: center; width: 88px; height: 88px; border-radius: 26px 26px 26px 8px; background: linear-gradient(145deg, #1ab0a5, #087c78); box-shadow: 0 14px 26px rgba(8,124,120,.2); color: #fff; font-size: 46px; font-weight: 700; }
+.login-brand-name { margin-top: 18px; color: #152033; font-size: 40px; font-weight: 700; letter-spacing: 4px; }
+.login-brand-slogan { margin-top: 8px; color: #8995a5; font-size: 21px; }
+
+.login-card { margin-top: 46px; padding: 36px 32px 30px; border-radius: 26px; background: #fff; box-shadow: 0 16px 38px rgba(31,49,74,.08); }
+.login-card-title, .login-card-subtitle, .login-footnote { display: block; }
+.login-card-title { color: #152033; font-size: 32px; font-weight: 700; text-align: center; }
+.login-card-subtitle { margin-top: 12px; color: #98a3b2; font-size: 20px; text-align: center; }
+
+.login-submit { width: 100%; height: 78px; margin: 36px 0 0; border-radius: 16px; background: linear-gradient(100deg, #19a79e, #087e7a); box-shadow: 0 12px 22px rgba(13,143,134,.2); color: #fff; font-size: 25px; line-height: 78px; }
+.phone-login-button[disabled] { opacity: .65; }
+.login-footnote { margin-top: 20px; color: #a2acb8; font-size: 17px; line-height: 1.5; text-align: center; }
